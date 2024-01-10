@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    text-align: center;
+}
+#main-container{
+    display: flex;
+    
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    max-width: 250px;
+    min-width: 120px;
+    
+    margin: 10px;
+}
+#search-button{
+    width: 100%;
+    background-color: rgb(42, 137, 220);
+    color: white;
+    height: 25px;
+}
+aside button{
+    font-weight: bolder;
+    margin: 3px 0 3px 0;
+    height: 25px;
+}
+aside hr{
+    width: 100%;
+}
+#weather-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+    max-width: 912px;
+    min-width: 250px;
+    margin: 10px;
+}
+#city-view{
+    outline: black solid 3px;
+    padding: 5px;
+}
+#five-day-forecast{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 18px;
+}
+.forecast{
+    background-color: darkslategray;
+    min-width: 125px;
+    color: aliceblue;
+    padding: 6px;
+}
