@@ -2,6 +2,10 @@ header{
     width: 100%;
     text-align: center;
 }
+header h1{
+    background-color: #8a8aff;
+    padding: 10px;
+}
 #main-container{
     display: flex;
     
@@ -25,6 +29,7 @@ aside button{
     font-weight: bolder;
     margin: 3px 0 3px 0;
     height: 25px;
+    width: 100%;
 }
 aside hr{
     width: 100%;
@@ -48,7 +53,7 @@ aside hr{
     gap: 18px;
 }
 .forecast{
-    background-color: darkslategray;
+    background-color: #3d8f8f;
     min-width: 125px;
     color: aliceblue;
     padding: 6px;
