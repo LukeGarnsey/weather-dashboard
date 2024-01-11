@@ -7,5 +7,6 @@ Dashboard will display the average temperature, wind speed, and humidity for eac
 
 The app will remember the users search history so previously requested cities are quicker to view.
 
+[https://lukegarnsey.github.io/weather-dashboard/](https://lukegarnsey.github.io/weather-dashboard/)
 
 ![alt text](./assets/readme_main.png)
