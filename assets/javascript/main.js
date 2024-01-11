@@ -1,6 +1,6 @@
 const apiKey = "71650f9b4cb44eeb4432c38ab5410ca5";
-const builtGEOCodeCall = `http://api.openweathermap.org/geo/1.0/direct?appid=${apiKey}&`;
-const builtForecastCall = `http://api.openweathermap.org/data/2.5/forecast?appid=${apiKey}&`;
+const builtGEOCodeCall = `https://api.openweathermap.org/geo/1.0/direct?appid=${apiKey}&`;
+const builtForecastCall = `https://api.openweathermap.org/data/2.5/forecast?appid=${apiKey}&`;
 
 const searchHistoryEl = document.getElementById("search-history");
 const searches = [];
